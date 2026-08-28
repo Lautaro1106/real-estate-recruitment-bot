@@ -1,0 +1,27 @@
+﻿# SO
+.DS_Store
+Thumbs.db
+
+# Python (microservicios: hmac-verifier, redis-lock)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secretos
+.env
+.env.local
+*.log
+
+# Config local de Antigravity/Gemini -- nunca compartida
+.gemini/
+.antigravity/
+
+# Staging de contenido sin sanitizar
+.staging/
+.drafts/
+
+# Tooling interno -- vive local/OneDrive, nunca en el historial de git
+AGENTS.md
+.agents/
+.githooks/
