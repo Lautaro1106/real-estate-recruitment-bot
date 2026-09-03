@@ -30,6 +30,8 @@ Fue diseñado, construido y es operado por un único ingeniero: aprovisionamient
 
 **Alcance y política de seguridad del repositorio:** Este repositorio expone la arquitectura de ingeniería, los microservicios complementarios y las decisiones de diseño de un sistema activo en producción. Por motivos de seguridad perimetral, reducción de superficie de ataque y confidencialidad comercial, los flujos ejecutables de orquestación (archivos JSON de n8n) y credenciales no forman parte de esta publicación.
 
+→ [Capturas del sistema en funcionamiento](docs/demo/README.md)
+
 ---
 
 ## 2. Arquitectura
