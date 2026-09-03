@@ -86,4 +86,22 @@ reclutamiento.
 
 ---
 
+## Agendamiento (Cal.com)
+
+![Selección de día y horario](agendamiento/confirmacion-evento.png)
+
+El slot reservado queda registrado en Google Calendar vía integración OAuth2
+(ver [ADR-005](../adr/ADR-005-transactional-email-provider.md)).
+
+| | |
+|---|---|
+| ![Email de confirmación al candidato (parte 1)](agendamiento/mail-candidato-1.png) | ![Email de confirmación al candidato (parte 2)](agendamiento/mail-candidato-2.png) |
+
+La invitación llega vía Google Calendar nativo (integración OAuth2 que
+se mantuvo sin cambios — ver ADR-005), no por el proveedor de correo
+transaccional (Resend) que maneja las notificaciones propias del bot.
+Confirma que el ciclo de agendamiento se cierra de punta a punta.
+
+---
+
 [← Volver al README principal](../../README.md)
